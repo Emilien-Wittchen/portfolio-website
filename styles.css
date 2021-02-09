@@ -390,3 +390,26 @@ h6 {
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 450px) {
+  #preview-shadow {
+    width: 250px;
+  }
+
+  #preview {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #preview-shadow {
+    width: 200px;
+    height: 230px;
+  }
+
+  #preview {
+    width: 200px;
+    height: 230px;
+    margin-right: 100px;
+  }
+}
